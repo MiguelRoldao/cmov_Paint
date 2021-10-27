@@ -42,5 +42,5 @@ dependencies {
     implementation "androidx.fragment:fragment:$fragment_version"
 
     // to include Pikolo color library
-    implementation 'com.github.madrapps:pikolo:2.0.2'
+    implementation 'com.larswerkman:HoloColorPicker:1.5'
 }

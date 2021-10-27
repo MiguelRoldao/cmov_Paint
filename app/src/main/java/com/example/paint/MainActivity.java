@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
     private View.OnClickListener mBotaoListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            //Intent i = new Intent(getApplicationContext(), CanvasActivity.class);
-            Intent i = new Intent(getApplicationContext(), MainActivity2.class);
+            Intent i = new Intent(getApplicationContext(), CanvasActivity.class);
+            //Intent i = new Intent(getApplicationContext(), MainActivity2.class);
             startActivity(i);
         }
     };
